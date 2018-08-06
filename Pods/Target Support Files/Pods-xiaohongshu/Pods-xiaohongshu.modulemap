@@ -1,0 +1,6 @@
+framework module Pods_xiaohongshu {
+  umbrella header "Pods-xiaohongshu-umbrella.h"
+
+  export *
+  module * { export * }
+}
