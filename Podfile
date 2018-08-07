@@ -9,5 +9,7 @@ target 'xiaohongshu' do
   pod 'Alamofire'
   
   pod 'SwiftyJSON'
+  
+  pod 'SnapKit'
 
 end
