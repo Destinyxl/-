@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		9DA66C1D2115C14000C59009 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA66C1C2115C14000C59009 /* Const.swift */; };
 		9DA66C1F21184EB600C59009 /* XLMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA66C1E21184EB600C59009 /* XLMainViewModel.swift */; };
+		9DA66C2421185D8800C59009 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA66C2321185D8800C59009 /* UIView+Extention.swift */; };
+		9DA66C27211860A400C59009 /* XLTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA66C26211860A300C59009 /* XLTabBarView.swift */; };
+		9DA66C29211860C400C59009 /* XLTabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DA66C28211860C400C59009 /* XLTabBarView.xib */; };
 		9DB964CE2115B227007534CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB964CD2115B227007534CC /* AppDelegate.swift */; };
 		9DB964D32115B227007534CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB964D12115B227007534CC /* Main.storyboard */; };
 		9DB964D52115B229007534CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB964D42115B229007534CC /* Assets.xcassets */; };
@@ -28,6 +31,9 @@
 		7B931FB7979D439F956B7678 /* Pods-xiaohongshu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaohongshu.release.xcconfig"; path = "Pods/Target Support Files/Pods-xiaohongshu/Pods-xiaohongshu.release.xcconfig"; sourceTree = "<group>"; };
 		9DA66C1C2115C14000C59009 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		9DA66C1E21184EB600C59009 /* XLMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLMainViewModel.swift; sourceTree = "<group>"; };
+		9DA66C2321185D8800C59009 /* UIView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
+		9DA66C26211860A300C59009 /* XLTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLTabBarView.swift; sourceTree = "<group>"; };
+		9DA66C28211860C400C59009 /* XLTabBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLTabBarView.xib; sourceTree = "<group>"; };
 		9DB964CA2115B227007534CC /* xiaohongshu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiaohongshu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB964CD2115B227007534CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DB964D22115B227007534CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,6 +87,23 @@
 			path = Config;
 			sourceTree = "<group>";
 		};
+		9DA66C2221185D6C00C59009 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				9DA66C2321185D8800C59009 /* UIView+Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		9DA66C252118607100C59009 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9DA66C26211860A300C59009 /* XLTabBarView.swift */,
+				9DA66C28211860C400C59009 /* XLTabBarView.xib */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		9DB964C12115B227007534CC = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +125,7 @@
 		9DB964CC2115B227007534CC /* xiaohongshu */ = {
 			isa = PBXGroup;
 			children = (
+				9DA66C2221185D6C00C59009 /* Extention */,
 				9DB964E02115B269007534CC /* Class */,
 				9DA66C1B2115C12300C59009 /* Config */,
 				9DB964DF2115B269007534CC /* Resource */,
@@ -121,6 +145,7 @@
 		9DB964E02115B269007534CC /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				9DA66C252118607100C59009 /* TabBar */,
 				9DB964F92115B51F007534CC /* Base */,
 				9DB964E42115B45C007534CC /* Main */,
 				9DB964EE2115B45C007534CC /* Shop */,
@@ -385,6 +410,7 @@
 				9DB9650B2115B771007534CC /* images.xcassets in Resources */,
 				9DB964D52115B229007534CC /* Assets.xcassets in Resources */,
 				9DB964D32115B227007534CC /* Main.storyboard in Resources */,
+				9DA66C29211860C400C59009 /* XLTabBarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,9 +468,11 @@
 				9DB964FF2115B5E0007534CC /* XLMainController.swift in Sources */,
 				9DB965012115B5FD007534CC /* XLShopController.swift in Sources */,
 				9DB965072115B644007534CC /* XLTabBarController.swift in Sources */,
+				9DA66C2421185D8800C59009 /* UIView+Extention.swift in Sources */,
 				9DA66C1D2115C14000C59009 /* Const.swift in Sources */,
 				9DB965032115B60D007534CC /* XLMessageController.swift in Sources */,
 				9DB965052115B619007534CC /* XLMineController.swift in Sources */,
+				9DA66C27211860A400C59009 /* XLTabBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XLTabBarView" customModule="xiaohongshu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLx-6O-oUk">
+                    <rect key="frame" x="0.0" y="0.0" width="75" height="40"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="首页"/>
+                    <connections>
+                        <action selector="MainTabClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Kx2-6i-xFb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YT5-YM-uEl" userLabel="Center">
+                    <rect key="frame" x="150" y="0.0" width="75" height="40"/>
+                    <state key="normal" image="tab_camera_h"/>
+                    <connections>
+                        <action selector="CenterTabClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="LuO-b6-Hqy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kd-q1-CYe">
+                    <rect key="frame" x="225" y="0.0" width="75" height="40"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="消息"/>
+                    <connections>
+                        <action selector="MessageTabClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="khW-wl-o6j"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69j-k2-Dxi">
+                    <rect key="frame" x="300" y="0.0" width="75" height="40"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="我"/>
+                    <connections>
+                        <action selector="MineTabClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="DoX-xd-IDV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DoP-eS-7VH">
+                    <rect key="frame" x="75" y="0.0" width="75" height="40"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="商城"/>
+                    <connections>
+                        <action selector="ShopTabClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="t5A-Xy-GVV"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3Kd-q1-CYe" firstAttribute="leading" secondItem="YT5-YM-uEl" secondAttribute="trailing" id="58l-r3-4oT"/>
+                <constraint firstItem="YT5-YM-uEl" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="7XT-W2-gft"/>
+                <constraint firstItem="DoP-eS-7VH" firstAttribute="leading" secondItem="JLx-6O-oUk" secondAttribute="trailing" id="9cR-SH-Srg"/>
+                <constraint firstItem="YT5-YM-uEl" firstAttribute="leading" secondItem="DoP-eS-7VH" secondAttribute="trailing" id="A44-97-987"/>
+                <constraint firstItem="3Kd-q1-CYe" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="AGM-Nm-oLy"/>
+                <constraint firstAttribute="bottom" secondItem="DoP-eS-7VH" secondAttribute="bottom" id="AgJ-er-AbQ"/>
+                <constraint firstItem="69j-k2-Dxi" firstAttribute="leading" secondItem="3Kd-q1-CYe" secondAttribute="trailing" id="Bir-lh-zR8"/>
+                <constraint firstItem="YT5-YM-uEl" firstAttribute="leading" secondItem="DoP-eS-7VH" secondAttribute="trailing" id="Crn-gq-bCr"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="JLx-6O-oUk" secondAttribute="bottom" id="Dem-zy-2B2"/>
+                <constraint firstItem="69j-k2-Dxi" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="DnA-hR-irX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="YT5-YM-uEl" secondAttribute="bottom" id="GEZ-Bf-ey8"/>
+                <constraint firstItem="DoP-eS-7VH" firstAttribute="leading" secondItem="JLx-6O-oUk" secondAttribute="trailing" id="HHo-36-Shb"/>
+                <constraint firstItem="69j-k2-Dxi" firstAttribute="leading" secondItem="3Kd-q1-CYe" secondAttribute="trailing" id="HvK-IW-jkL"/>
+                <constraint firstItem="3Kd-q1-CYe" firstAttribute="leading" secondItem="YT5-YM-uEl" secondAttribute="trailing" id="MaG-ha-RO7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="69j-k2-Dxi" secondAttribute="trailing" id="QV7-Jk-4pt"/>
+                <constraint firstItem="69j-k2-Dxi" firstAttribute="width" secondItem="JLx-6O-oUk" secondAttribute="width" id="ZF3-q2-usz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="69j-k2-Dxi" secondAttribute="bottom" id="dnG-kK-WIM"/>
+                <constraint firstItem="DoP-eS-7VH" firstAttribute="width" secondItem="JLx-6O-oUk" secondAttribute="width" id="ec4-3p-SCP"/>
+                <constraint firstItem="JLx-6O-oUk" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ey4-SN-GJ3"/>
+                <constraint firstItem="YT5-YM-uEl" firstAttribute="width" secondItem="JLx-6O-oUk" secondAttribute="width" id="iS0-4d-icD"/>
+                <constraint firstItem="3Kd-q1-CYe" firstAttribute="width" secondItem="JLx-6O-oUk" secondAttribute="width" id="nTc-T1-Le2"/>
+                <constraint firstItem="DoP-eS-7VH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="tY1-vd-N2s"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="3Kd-q1-CYe" secondAttribute="bottom" id="vh7-Cw-h6P"/>
+                <constraint firstItem="JLx-6O-oUk" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="yGO-ML-esq"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="CenterTabButton" destination="YT5-YM-uEl" id="qLv-BY-65W"/>
+                <outlet property="MainTabButton" destination="JLx-6O-oUk" id="Wv8-S6-wzI"/>
+                <outlet property="MessageTabButton" destination="3Kd-q1-CYe" id="FwH-pr-Wzk"/>
+                <outlet property="MineTabButton" destination="69j-k2-Dxi" id="WbV-Qu-8lo"/>
+                <outlet property="ShopTabButton" destination="DoP-eS-7VH" id="qoP-eK-skt"/>
+            </connections>
+            <point key="canvasLocation" x="263" y="-272"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tab_camera_h" width="46" height="37"/>
+    </resources>
+</document>
