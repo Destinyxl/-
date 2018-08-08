@@ -7,9 +7,7 @@ target 'xiaohongshu' do
 
   # Pods for xiaohongshu
   pod 'Alamofire'
-  
   pod 'SwiftyJSON'
-  
   pod 'SnapKit'
-
+  
 end

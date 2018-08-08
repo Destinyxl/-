@@ -45,7 +45,7 @@ class XLTabBarController: UITabBarController, XLTabBarButtonClickDelegate {
     /// 初始化子控制器
     private func setChildViewController(_ childController: UIViewController, title: String, imageName: String) {
         
-        childController.navigationItem.title = title
+//        childController.navigationItem.title = title
         // 添加导航控制器为 TabBarController 的子控制器
         addChildViewController(XLNavigationController(rootViewController: childController))
     }

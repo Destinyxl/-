@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D9D443321199D87004B28DC /* XL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D443221199D87004B28DC /* XL.m */; };
+		9D9D44372119A4C2004B28DC /* XLNaviTitleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D44362119A4C2004B28DC /* XLNaviTitleContentView.swift */; };
+		9D9D44392119A839004B28DC /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D44382119A839004B28DC /* UIColor+Extention.swift */; };
+		9D9D443B2119AA14004B28DC /* XLFocusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D443A2119AA14004B28DC /* XLFocusController.swift */; };
+		9D9D443D2119AA28004B28DC /* XLDiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D443C2119AA28004B28DC /* XLDiscoverController.swift */; };
+		9D9D443F2119AA3A004B28DC /* XLNearController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D443E2119AA3A004B28DC /* XLNearController.swift */; };
+		9D9D44542119AEC4004B28DC /* NSString+SGPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D44462119AEC4004B28DC /* NSString+SGPagingView.m */; };
+		9D9D44552119AEC4004B28DC /* UIButton+SGPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D44472119AEC4004B28DC /* UIButton+SGPagingView.m */; };
+		9D9D44562119AEC4004B28DC /* UIView+SGPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D44482119AEC4004B28DC /* UIView+SGPagingView.m */; };
+		9D9D44572119AEC4004B28DC /* SGPageContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D444A2119AEC4004B28DC /* SGPageContentScrollView.m */; };
+		9D9D44582119AEC4004B28DC /* SGPageContentCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D444D2119AEC4004B28DC /* SGPageContentCollectionView.m */; };
+		9D9D44592119AEC4004B28DC /* SGPageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D444F2119AEC4004B28DC /* SGPageTitleView.m */; };
+		9D9D445A2119AEC4004B28DC /* SGPageTitleViewConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D44502119AEC4004B28DC /* SGPageTitleViewConfigure.m */; };
+		9D9D445C2119B51F004B28DC /* XLMainSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D445B2119B51F004B28DC /* XLMainSearchView.swift */; };
 		9DA66C1D2115C14000C59009 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA66C1C2115C14000C59009 /* Const.swift */; };
 		9DA66C1F21184EB600C59009 /* XLMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA66C1E21184EB600C59009 /* XLMainViewModel.swift */; };
 		9DA66C2421185D8800C59009 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA66C2321185D8800C59009 /* UIView+Extention.swift */; };
@@ -29,6 +43,29 @@
 /* Begin PBXFileReference section */
 		0FCC8BEDEC1EC940E7ADED3C /* Pods-xiaohongshu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaohongshu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xiaohongshu/Pods-xiaohongshu.debug.xcconfig"; sourceTree = "<group>"; };
 		7B931FB7979D439F956B7678 /* Pods-xiaohongshu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaohongshu.release.xcconfig"; path = "Pods/Target Support Files/Pods-xiaohongshu/Pods-xiaohongshu.release.xcconfig"; sourceTree = "<group>"; };
+		9D9D443121199D87004B28DC /* xiaohongshu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xiaohongshu-Bridging-Header.h"; sourceTree = "<group>"; };
+		9D9D443221199D87004B28DC /* XL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XL.m; sourceTree = "<group>"; };
+		9D9D44362119A4C2004B28DC /* XLNaviTitleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLNaviTitleContentView.swift; sourceTree = "<group>"; };
+		9D9D44382119A839004B28DC /* UIColor+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
+		9D9D443A2119AA14004B28DC /* XLFocusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLFocusController.swift; sourceTree = "<group>"; };
+		9D9D443C2119AA28004B28DC /* XLDiscoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLDiscoverController.swift; sourceTree = "<group>"; };
+		9D9D443E2119AA3A004B28DC /* XLNearController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLNearController.swift; sourceTree = "<group>"; };
+		9D9D44432119AEC4004B28DC /* UIButton+SGPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SGPagingView.h"; sourceTree = "<group>"; };
+		9D9D44442119AEC4004B28DC /* NSString+SGPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SGPagingView.h"; sourceTree = "<group>"; };
+		9D9D44452119AEC4004B28DC /* UIView+SGPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SGPagingView.h"; sourceTree = "<group>"; };
+		9D9D44462119AEC4004B28DC /* NSString+SGPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SGPagingView.m"; sourceTree = "<group>"; };
+		9D9D44472119AEC4004B28DC /* UIButton+SGPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SGPagingView.m"; sourceTree = "<group>"; };
+		9D9D44482119AEC4004B28DC /* UIView+SGPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SGPagingView.m"; sourceTree = "<group>"; };
+		9D9D444A2119AEC4004B28DC /* SGPageContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageContentScrollView.m; sourceTree = "<group>"; };
+		9D9D444B2119AEC4004B28DC /* SGPageContentCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageContentCollectionView.h; sourceTree = "<group>"; };
+		9D9D444C2119AEC4004B28DC /* SGPageContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageContentScrollView.h; sourceTree = "<group>"; };
+		9D9D444D2119AEC4004B28DC /* SGPageContentCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageContentCollectionView.m; sourceTree = "<group>"; };
+		9D9D444F2119AEC4004B28DC /* SGPageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageTitleView.m; sourceTree = "<group>"; };
+		9D9D44502119AEC4004B28DC /* SGPageTitleViewConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPageTitleViewConfigure.m; sourceTree = "<group>"; };
+		9D9D44512119AEC4004B28DC /* SGPageTitleViewConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageTitleViewConfigure.h; sourceTree = "<group>"; };
+		9D9D44522119AEC4004B28DC /* SGPageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPageTitleView.h; sourceTree = "<group>"; };
+		9D9D44532119AEC4004B28DC /* SGPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPagingView.h; sourceTree = "<group>"; };
+		9D9D445B2119B51F004B28DC /* XLMainSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLMainSearchView.swift; sourceTree = "<group>"; };
 		9DA66C1C2115C14000C59009 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		9DA66C1E21184EB600C59009 /* XLMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLMainViewModel.swift; sourceTree = "<group>"; };
 		9DA66C2321185D8800C59009 /* UIView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
@@ -79,6 +116,60 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9D9D44402119AE40004B28DC /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D44412119AEC4004B28DC /* SGPagingView */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		9D9D44412119AEC4004B28DC /* SGPagingView */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D44422119AEC4004B28DC /* Category */,
+				9D9D44492119AEC4004B28DC /* SGPageContent */,
+				9D9D444E2119AEC4004B28DC /* SGPageTitle */,
+				9D9D44532119AEC4004B28DC /* SGPagingView.h */,
+			);
+			path = SGPagingView;
+			sourceTree = "<group>";
+		};
+		9D9D44422119AEC4004B28DC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D44432119AEC4004B28DC /* UIButton+SGPagingView.h */,
+				9D9D44442119AEC4004B28DC /* NSString+SGPagingView.h */,
+				9D9D44452119AEC4004B28DC /* UIView+SGPagingView.h */,
+				9D9D44462119AEC4004B28DC /* NSString+SGPagingView.m */,
+				9D9D44472119AEC4004B28DC /* UIButton+SGPagingView.m */,
+				9D9D44482119AEC4004B28DC /* UIView+SGPagingView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9D9D44492119AEC4004B28DC /* SGPageContent */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D444A2119AEC4004B28DC /* SGPageContentScrollView.m */,
+				9D9D444B2119AEC4004B28DC /* SGPageContentCollectionView.h */,
+				9D9D444C2119AEC4004B28DC /* SGPageContentScrollView.h */,
+				9D9D444D2119AEC4004B28DC /* SGPageContentCollectionView.m */,
+			);
+			path = SGPageContent;
+			sourceTree = "<group>";
+		};
+		9D9D444E2119AEC4004B28DC /* SGPageTitle */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D444F2119AEC4004B28DC /* SGPageTitleView.m */,
+				9D9D44502119AEC4004B28DC /* SGPageTitleViewConfigure.m */,
+				9D9D44512119AEC4004B28DC /* SGPageTitleViewConfigure.h */,
+				9D9D44522119AEC4004B28DC /* SGPageTitleView.h */,
+			);
+			path = SGPageTitle;
+			sourceTree = "<group>";
+		};
 		9DA66C1B2115C12300C59009 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				9DA66C2321185D8800C59009 /* UIView+Extention.swift */,
+				9D9D44382119A839004B28DC /* UIColor+Extention.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -125,9 +217,10 @@
 		9DB964CC2115B227007534CC /* xiaohongshu */ = {
 			isa = PBXGroup;
 			children = (
-				9DA66C2221185D6C00C59009 /* Extention */,
 				9DB964E02115B269007534CC /* Class */,
 				9DA66C1B2115C12300C59009 /* Config */,
+				9D9D44402119AE40004B28DC /* Vendor */,
+				9DA66C2221185D6C00C59009 /* Extention */,
 				9DB964DF2115B269007534CC /* Resource */,
 				9DB964E12115B2A0007534CC /* AppDelegate */,
 			);
@@ -186,6 +279,9 @@
 			isa = PBXGroup;
 			children = (
 				9DB964FE2115B5E0007534CC /* XLMainController.swift */,
+				9D9D443A2119AA14004B28DC /* XLFocusController.swift */,
+				9D9D443C2119AA28004B28DC /* XLDiscoverController.swift */,
+				9D9D443E2119AA3A004B28DC /* XLNearController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -200,6 +296,8 @@
 		9DB964E82115B45C007534CC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9D9D44362119A4C2004B28DC /* XLNaviTitleContentView.swift */,
+				9D9D445B2119B51F004B28DC /* XLMainSearchView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -332,6 +430,8 @@
 				9DB964D62115B229007534CC /* LaunchScreen.storyboard */,
 				9DB964D92115B229007534CC /* Info.plist */,
 				9DB9650A2115B771007534CC /* images.xcassets */,
+				9D9D443221199D87004B28DC /* XL.m */,
+				9D9D443121199D87004B28DC /* xiaohongshu-Bridging-Header.h */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -380,6 +480,7 @@
 				TargetAttributes = {
 					9DB964C92115B227007534CC = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -464,17 +565,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D9D445C2119B51F004B28DC /* XLMainSearchView.swift in Sources */,
 				9DB964CE2115B227007534CC /* AppDelegate.swift in Sources */,
+				9D9D44582119AEC4004B28DC /* SGPageContentCollectionView.m in Sources */,
 				9DA66C1F21184EB600C59009 /* XLMainViewModel.swift in Sources */,
+				9D9D44552119AEC4004B28DC /* UIButton+SGPagingView.m in Sources */,
 				9DB964FD2115B579007534CC /* XLNavigationController.swift in Sources */,
+				9D9D443321199D87004B28DC /* XL.m in Sources */,
 				9DB964FF2115B5E0007534CC /* XLMainController.swift in Sources */,
 				9DB965012115B5FD007534CC /* XLShopController.swift in Sources */,
+				9D9D44392119A839004B28DC /* UIColor+Extention.swift in Sources */,
+				9D9D443B2119AA14004B28DC /* XLFocusController.swift in Sources */,
+				9D9D44592119AEC4004B28DC /* SGPageTitleView.m in Sources */,
 				9DB965072115B644007534CC /* XLTabBarController.swift in Sources */,
 				9DA66C2421185D8800C59009 /* UIView+Extention.swift in Sources */,
+				9D9D44572119AEC4004B28DC /* SGPageContentScrollView.m in Sources */,
 				9DA66C1D2115C14000C59009 /* Const.swift in Sources */,
 				9DB965032115B60D007534CC /* XLMessageController.swift in Sources */,
+				9D9D443F2119AA3A004B28DC /* XLNearController.swift in Sources */,
+				9D9D443D2119AA28004B28DC /* XLDiscoverController.swift in Sources */,
+				9D9D44542119AEC4004B28DC /* NSString+SGPagingView.m in Sources */,
+				9D9D445A2119AEC4004B28DC /* SGPageTitleViewConfigure.m in Sources */,
 				9DB965052115B619007534CC /* XLMineController.swift in Sources */,
+				9D9D44372119A4C2004B28DC /* XLNaviTitleContentView.swift in Sources */,
 				9DA66C27211860A400C59009 /* XLTabBarView.swift in Sources */,
+				9D9D44562119AEC4004B28DC /* UIView+SGPagingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,12 +734,20 @@
 			baseConfigurationReference = 0FCC8BEDEC1EC940E7ADED3C /* Pods-xiaohongshu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 774AZPM52B;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/xiaohongshu/Resource/System/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FXL.xiaohongshu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "xiaohongshu/Resource/System/xiaohongshu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -635,12 +758,19 @@
 			baseConfigurationReference = 7B931FB7979D439F956B7678 /* Pods-xiaohongshu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 774AZPM52B;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/xiaohongshu/Resource/System/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FXL.xiaohongshu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "xiaohongshu/Resource/System/xiaohongshu-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
